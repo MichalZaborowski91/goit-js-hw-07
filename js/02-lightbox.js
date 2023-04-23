@@ -17,4 +17,5 @@ gallery.innerHTML = createGallery(galleryItems);
 const lightbox = new SimpleLightbox(".gallery a", {
   //Options
   captionsData: "alt",
+  captionDelay: 250,
 });
